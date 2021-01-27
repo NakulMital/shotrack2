@@ -1,0 +1,83 @@
+@font-face {font-family: "Conduit ITC Pro Italic"; src: url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.eot"); src: url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.woff") format("woff"), url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7b1b6c0597d188c0a6ff8739775ff6b0.svg#Conduit ITC Pro") format("svg"); }
+@font-face {font-family: "FuturaItalic"; src: url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.eot"); src: url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.woff") format("woff"), url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f8d99f836f5ceb6d510708d3cd7bc330.svg#Futura") format("svg"); }
+@font-face {font-family: "Futura"; src: url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.eot"); src: url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac36fe28ff8cfba5e0e55e6253e3e25e.svg#Futura") format("svg"); }
+@font-face {font-family: "ConduitITCStd"; src: url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.eot"); src: url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.woff") format("woff"), url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39214f725cd6e962e8ba38f9c592e543.svg#ConduitITCStd") format("svg"); }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+#backGround{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+#logo{
+  height: 30vh;
+  width: 40vw;
+}
+#startButton{
+  font-family: "ConduitITCStd";
+  color: white;   
+  background-color: black; 
+  font-size: 30px;    
+  border: black;                                 
+}
+
+#startButton2{
+  font-family: "Conduit ITC Pro Italic";
+  color: white;   
+  background-color: black; 
+  font-size: 30px;    
+  border: black;                                 
+}
+
+h1{
+  font-family: "Futura";
+  color: #00a4d8;
+  font-size: 10vh;
+  
+}
+
+h4{
+  font-family: "Conduit ITC Pro Italic";
+  color: #00a4d8;
+  font-size: 3vh;
+}
+h5{
+  font-family: "Conduit ITC Pro Italic";
+  color: white;
+  font-size: 3vh;
+}
+
+h2{
+  font-family: "ConduitITCStd";
+  color: white;
+  font-size: 5vh;
+}
+
+#court{
+  height: 50vh;
+}
+
+#makeButton{
+  height: 9vh;
+}
+#makeButton:active{
+  transform: scale(1.5,1.5);
+}
+#missButton{
+  height: 9vh;
+}
+#missButton:active{
+  transform: scale(1.5,1.5);
+}
+
+#tempImg{
+  position: absolute;
+  background-position-x: left;
+  background-position-y: top;
+}

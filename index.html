@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <script src="screen.js"></script>
+    <script src="screen2.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link href="//db.onlinewebfonts.com/c/763f49879b1190c843260a2f57e7826f?family=Conduit+ITC+Pro" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/7b1b6c0597d188c0a6ff8739775ff6b0?family=Conduit+ITC+Pro" rel="stylesheet" type="text/css"/>    
+    <link href="//db.onlinewebfonts.com/c/f8d99f836f5ceb6d510708d3cd7bc330?family=Futura" rel="stylesheet" type="text/css"/>      
+    <link href="//db.onlinewebfonts.com/c/e8d1660b0c3738e3d5138b97ff2b7a47?family=ITC+Conduit" rel="stylesheet" type="text/css"/> 
+    <link href="//db.onlinewebfonts.com/c/a7aa7f2fa7641eec099b038e3a2ac6d9?family=ConduitITCStd" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/ac36fe28ff8cfba5e0e55e6253e3e25e?family=Futura" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/39214f725cd6e962e8ba38f9c592e543?family=ConduitITCStd" rel="stylesheet" type="text/css"/>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIjgEv-E8pkZziRD0Wo8dIN-nHmW8qTUA",
+    authDomain: "shotracker-71b37.firebaseapp.com",
+    projectId: "shotracker-71b37",
+    storageBucket: "shotracker-71b37.appspot.com",
+    messagingSenderId: "831962195391",
+    appId: "1:831962195391:web:49df8f8d106435f9cd6d0a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+      
+      <script src="sketch.js">
+        court.mouseOver = function(){
+          var x = mouseOver.clientX;
+          var y = mouseOver.clientY;
+          tempImg.style.left = x;
+          tempImg.style.top = y;
+        };
+      </script>
+  
+
+</body></html>
