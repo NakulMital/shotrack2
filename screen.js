@@ -14,7 +14,7 @@ class Screen{
         backGround.position(0,0);
         console.log("screen has been created"); 
         var logo = createImg(
-            '../Images/logo.png',
+            'shotrack2/Images/logo.png',
             'Logo'
           );
         logo.parent(backGround);
@@ -63,7 +63,7 @@ class Screen{
         kobe.hide();
         button2.hide();
         var court = createImg(
-          '../Images/Court.png',
+          'shotrack2/Images/Court.png',
           'Court'
         );
         court.position(width/2-280, height/2-5);
@@ -78,7 +78,7 @@ class Screen{
         var miss = createElement('h2', "M I S S");
         miss.position(width/2+120,height/2-180);
         var makeButton = createImg(
-          '../Images/makeButton.png',
+          'shotrack2/Images/makeButton.png',
           'makeButton'
         );
         makeButton.parent(backGround);
@@ -86,14 +86,14 @@ class Screen{
         makeButton.id("makeButton");
         makeButton.mouseClicked(function () {
           makeImg = createImg(
-            '../Images/circle2.png',
+            'shotrack2/Images/circle2.png',
             'makeImg'
           );
           makeImg.position(x-13,y-13);
         });
 
         var missButton = createImg(
-          '../Images/missedButton.png',
+          'shotrack2/Images/missedButton.png',
           'missedButton'
         );
         missButton.parent(backGround);
@@ -101,7 +101,7 @@ class Screen{
         missButton.id("missButton");
         missButton.mouseClicked(function () {
           missImg = createImg(
-            '../Images/cross.png',
+            'shotrack2/Images/cross.png',
             'missImg'
           );
           missImg.position(x-15,y-15);
